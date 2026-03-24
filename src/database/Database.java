@@ -19,7 +19,7 @@ public class Database {
     //05_IMPLEMENT_connection
     private static final String DB_NAME = "ascii6";
     private static final String USERNAME = "postgres";
-    private static final String PASSWORD = "Student_1234";
+    private static final String PASSWORD = "postgres";
     private static final String CONNECTION_URL = "jdbc:postgresql://127.0.0.1:5432/" + DB_NAME;
 
     private static Connection getConnection() throws SQLException {
